@@ -1,37 +1,35 @@
-# Environment Setup
+# Getting Started: Environment Setup
 
-- DS-Flex 07-2021
-- 07/20/21
+- DS-Flex
+- 11/02/21
 
+
+>- 📺[Recording of a Previous Study Group Using this Notebook](https://youtu.be/Zx5e7OT0UJQ)
+
+<h1>Table of Contents<span class="tocSkip"></span></h1>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Getting-Started:-Environment-Setup" data-toc-modified-id="Getting-Started:-Environment-Setup-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Getting Started: Environment Setup</a></span><ul class="toc-item"><li><span><a href="#Learning-Objectives" data-toc-modified-id="Learning-Objectives-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Learning Objectives</a></span></li></ul></li><li><span><a href="#Environment-Setup" data-toc-modified-id="Environment-Setup-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Environment Setup</a></span><ul class="toc-item"><li><span><a href="#Env-Setup-Repositories" data-toc-modified-id="Env-Setup-Repositories-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Env Setup Repositories</a></span><ul class="toc-item"><li><span><a href="#👨‍🏫-Environment/Tools-Slide-Show" data-toc-modified-id="👨‍🏫-Environment/Tools-Slide-Show-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>👨‍🏫 Environment/Tools Slide Show</a></span></li><li><span><a href="#Question-to-the-group:" data-toc-modified-id="Question-to-the-group:-2.1.2"><span class="toc-item-num">2.1.2&nbsp;&nbsp;</span>Question to the group:</a></span></li></ul></li><li><span><a href="#👨‍🏫--Walk-Through-Environment-Set-Up" data-toc-modified-id="👨‍🏫--Walk-Through-Environment-Set-Up-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>👨‍🏫  Walk-Through Environment Set-Up</a></span></li><li><span><a href="#Environment-Setup-Troubleshooting:--What-if..." data-toc-modified-id="Environment-Setup-Troubleshooting:--What-if...-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Environment Setup Troubleshooting:  What if...</a></span><ul class="toc-item"><li><span><a href="#&quot;learn-env&quot;-doesn't-show-up-in-your-list-of-jupyter-notebook-kernels?" data-toc-modified-id="&quot;learn-env&quot;-doesn't-show-up-in-your-list-of-jupyter-notebook-kernels?-2.3.1"><span class="toc-item-num">2.3.1&nbsp;&nbsp;</span>"learn-env" doesn't show up in your list of jupyter notebook kernels?</a></span></li><li><span><a href="#Your-terminal-doesn't-activate-learn-env-automatically" data-toc-modified-id="Your-terminal-doesn't-activate-learn-env-automatically-2.3.2"><span class="toc-item-num">2.3.2&nbsp;&nbsp;</span>Your terminal doesn't activate learn-env automatically</a></span></li><li><span><a href="#You-have-a-mac-that-displays-a-message-about-the-default-shell-being-zsh" data-toc-modified-id="You-have-a-mac-that-displays-a-message-about-the-default-shell-being-zsh-2.3.3"><span class="toc-item-num">2.3.3&nbsp;&nbsp;</span>You have a mac that displays a message about the default shell being zsh</a></span></li><li><span><a href="#I-have-a-new-Mac-with-an-M1-chip?" data-toc-modified-id="I-have-a-new-Mac-with-an-M1-chip?-2.3.4"><span class="toc-item-num">2.3.4&nbsp;&nbsp;</span>I have a new Mac with an M1 chip?</a></span></li></ul></li></ul></li><li><span><a href="#✅-Install-a-Code-Editor" data-toc-modified-id="✅-Install-a-Code-Editor-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>✅ Install a Code Editor</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Once-you've-installed-a-code-editor:" data-toc-modified-id="Once-you've-installed-a-code-editor:-3.0.1"><span class="toc-item-num">3.0.1&nbsp;&nbsp;</span>Once you've installed a code editor:</a></span></li></ul></li></ul></li><li><span><a href="#✅-Install-Jupyter-Notebook-Extensions" data-toc-modified-id="✅-Install-Jupyter-Notebook-Extensions-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>✅ Install Jupyter Notebook Extensions</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Jupyter-Notebook-Extensions-Resources" data-toc-modified-id="Jupyter-Notebook-Extensions-Resources-4.0.1"><span class="toc-item-num">4.0.1&nbsp;&nbsp;</span>Jupyter Notebook Extensions Resources</a></span></li><li><span><a href="#Installation-&amp;-activation" data-toc-modified-id="Installation-&amp;-activation-4.0.2"><span class="toc-item-num">4.0.2&nbsp;&nbsp;</span>Installation &amp; activation</a></span></li><li><span><a href="#Turning-on-extensions" data-toc-modified-id="Turning-on-extensions-4.0.3"><span class="toc-item-num">4.0.3&nbsp;&nbsp;</span>Turning on extensions</a></span></li><li><span><a href="#Recommended-extensions-&amp;-settings" data-toc-modified-id="Recommended-extensions-&amp;-settings-4.0.4"><span class="toc-item-num">4.0.4&nbsp;&nbsp;</span>Recommended extensions &amp; settings</a></span></li></ul></li></ul></li><li><span><a href="#🔬Workflow-for-Labs-🧪" data-toc-modified-id="🔬Workflow-for-Labs-🧪-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>🔬Workflow for Labs 🧪</a></span><ul class="toc-item"><li><span><a href="#On-Illumidesk" data-toc-modified-id="On-Illumidesk-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>On Illumidesk</a></span></li><li><span><a href="#On-Your-Local-Machine" data-toc-modified-id="On-Your-Local-Machine-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>On Your Local Machine</a></span></li></ul></li><li><span><a href="#📜Appendix:" data-toc-modified-id="📜Appendix:-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>📜Appendix:</a></span><ul class="toc-item"><li><span><a href="#GitHubDesktop" data-toc-modified-id="GitHubDesktop-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>GitHubDesktop</a></span></li><li><span><a href="#Showing-Hidden-Files" data-toc-modified-id="Showing-Hidden-Files-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Showing Hidden Files</a></span></li></ul></li></ul></div>
 
 ## Learning Objectives
 
 - [ ] Walk Through Environment Setup
 - [ ] Walk Through `nbextensions` Setup
 - [ ] Discuss installing a code editor (like VS Code or SublimeText).
-- [ ] Discuss GitHub Desktop: https://desktop.github.com/
 - [ ] Go over the general workflow for tackling labs on Illumidesk and in your local environment
-
-<h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Environment-Setup" data-toc-modified-id="Environment-Setup-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Environment Setup</a></span><ul class="toc-item"><li><span><a href="#Learning-Objectives" data-toc-modified-id="Learning-Objectives-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Learning Objectives</a></span></li></ul></li><li><span><a href="#Environment-Setup" data-toc-modified-id="Environment-Setup-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Environment Setup</a></span><ul class="toc-item"><li><span><a href="#Env-Setup-Lessons" data-toc-modified-id="Env-Setup-Lessons-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Env Setup Lessons</a></span><ul class="toc-item"><li><span><a href="#👨‍🏫-Environment/Tools-Slide-Show" data-toc-modified-id="👨‍🏫-Environment/Tools-Slide-Show-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>👨‍🏫 Environment/Tools Slide Show</a></span></li><li><span><a href="#Question-to-the-group:" data-toc-modified-id="Question-to-the-group:-2.1.2"><span class="toc-item-num">2.1.2&nbsp;&nbsp;</span>Question to the group:</a></span></li></ul></li><li><span><a href="#👨‍🏫--Walk-Through-Environment-Set-Up" data-toc-modified-id="👨‍🏫--Walk-Through-Environment-Set-Up-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>👨‍🏫  Walk-Through Environment Set-Up</a></span></li><li><span><a href="#Environment-Setup-Troubleshooting:--What-if..." data-toc-modified-id="Environment-Setup-Troubleshooting:--What-if...-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Environment Setup Troubleshooting:  What if...</a></span><ul class="toc-item"><li><span><a href="#&quot;learn-env&quot;-doesn't-show-up-in-your-list-of-jupyter-notebook-kernels?" data-toc-modified-id="&quot;learn-env&quot;-doesn't-show-up-in-your-list-of-jupyter-notebook-kernels?-2.3.1"><span class="toc-item-num">2.3.1&nbsp;&nbsp;</span>"learn-env" doesn't show up in your list of jupyter notebook kernels?</a></span></li><li><span><a href="#Your-terminal-doesn't-activate-learn-env-automatically" data-toc-modified-id="Your-terminal-doesn't-activate-learn-env-automatically-2.3.2"><span class="toc-item-num">2.3.2&nbsp;&nbsp;</span>Your terminal doesn't activate learn-env automatically</a></span></li><li><span><a href="#You-have-a-mac-that-displays-a-message-about-the-default-shell-being-zsh" data-toc-modified-id="You-have-a-mac-that-displays-a-message-about-the-default-shell-being-zsh-2.3.3"><span class="toc-item-num">2.3.3&nbsp;&nbsp;</span>You have a mac that displays a message about the default shell being zsh</a></span></li><li><span><a href="#I-have-a-new-Mac-with-an-M1-chip?" data-toc-modified-id="I-have-a-new-Mac-with-an-M1-chip?-2.3.4"><span class="toc-item-num">2.3.4&nbsp;&nbsp;</span>I have a new Mac with an M1 chip?</a></span></li></ul></li></ul></li><li><span><a href="#✅-Install-a-Code-Editor" data-toc-modified-id="✅-Install-a-Code-Editor-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>✅ Install a Code Editor</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Once-you've-installed-a-code-editor:" data-toc-modified-id="Once-you've-installed-a-code-editor:-3.0.1"><span class="toc-item-num">3.0.1&nbsp;&nbsp;</span>Once you've installed a code editor:</a></span></li></ul></li></ul></li><li><span><a href="#✅-Install-Jupyter-Notebook-Extensions" data-toc-modified-id="✅-Install-Jupyter-Notebook-Extensions-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>✅ Install Jupyter Notebook Extensions</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#Jupyter-Notebook-Extensions-Resources" data-toc-modified-id="Jupyter-Notebook-Extensions-Resources-4.0.1"><span class="toc-item-num">4.0.1&nbsp;&nbsp;</span>Jupyter Notebook Extensions Resources</a></span></li><li><span><a href="#Installation-&amp;-activation" data-toc-modified-id="Installation-&amp;-activation-4.0.2"><span class="toc-item-num">4.0.2&nbsp;&nbsp;</span>Installation &amp; activation</a></span></li><li><span><a href="#Turning-on-extensions" data-toc-modified-id="Turning-on-extensions-4.0.3"><span class="toc-item-num">4.0.3&nbsp;&nbsp;</span>Turning on extensions</a></span></li><li><span><a href="#Recommended-extensions-&amp;-settings" data-toc-modified-id="Recommended-extensions-&amp;-settings-4.0.4"><span class="toc-item-num">4.0.4&nbsp;&nbsp;</span>Recommended extensions &amp; settings</a></span></li></ul></li></ul></li><li><span><a href="#🔬Workflow-for-Labs-🧪" data-toc-modified-id="🔬Workflow-for-Labs-🧪-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>🔬Workflow for Labs 🧪</a></span><ul class="toc-item"><li><span><a href="#On-Illumidesk" data-toc-modified-id="On-Illumidesk-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>On Illumidesk</a></span></li><li><span><a href="#On-Your-Local-Machine" data-toc-modified-id="On-Your-Local-Machine-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>On Your Local Machine</a></span></li></ul></li><li><span><a href="#📜Appendix:" data-toc-modified-id="📜Appendix:-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>📜Appendix:</a></span><ul class="toc-item"><li><span><a href="#GitHubDesktop" data-toc-modified-id="GitHubDesktop-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>GitHubDesktop</a></span></li><li><span><a href="#Showing-Hidden-Files" data-toc-modified-id="Showing-Hidden-Files-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Showing Hidden Files</a></span></li></ul></li></ul></div>
+- [ ] Discuss GitHub Desktop: https://desktop.github.com/
 
 # Environment Setup
 
-## Env Setup Lessons
+## Env Setup Repositories
 
-There are 2 lessons on Canvas that you will cover environment installation:
+There is a 2-part setup process on Canvas that you will cover environment installation:
 
-1. **OS-Specific Set-Up Lessons:**
-    - Setting up a Professional Data Science Environment - MacOS
-        - [Canvas Link](https://learning.flatironschool.com/courses/4339/pages/setting-up-a-professional-data-science-environment-macos-installation?module_item_id=276027)
-        - [Repo Link](https://github.com/learn-co-curriculum/dsc-data-science-env-mac-installation)
-    - Setting up a Professional Data Science Environment - Windows Installation
-        - [Canvas Link](https://learning.flatironschool.com/courses/4339/pages/setting-up-a-professional-data-science-environment-windows-installation?module_item_id=276029)
-        - [Repo Link](https://github.com/learn-co-curriculum/dsc-data-science-env-windows-installation)
+1. **Part 1: OS-Specific Set-Up Lessons:**
+    - Setting up a Professional Data Science Environment - MacOS  [[Repo Link](https://github.com/learn-co-curriculum/dsc-data-science-env-mac-installation)]
+    - Setting up a Professional Data Science Environment - Windows Installation  [[Repo Link](https://github.com/learn-co-curriculum/dsc-data-science-env-windows-installation)]
     
-2. **Setting up a Professional Data Science Environment - Configuring Git and Anaconda**
-    - [Canvas Link](https://learning.flatironschool.com/courses/4339/pages/setting-up-a-professional-data-science-environment-configuring-git-and-anaconda?module_item_id=276031)
-    - [Repoo Link](https://github.com/learn-co-curriculum/dsc-data-science-env-config)
+    
+2. **Part 2: Installing your `learn-env` environment**:
+    - **Setting up a Professional Data Science Environment - Configuring Git and Anaconda** [[Repo Link](https://github.com/learn-co-curriculum/dsc-data-science-env-config)]
     
 
 
@@ -56,7 +54,6 @@ There are 2 lessons on Canvas that you will cover environment installation:
 
     
 2. **Setting up a Professional Data Science Environment - Configuring Git and Anaconda**
-    - [Canvas Link](https://learning.flatironschool.com/courses/4339/pages/setting-up-a-professional-data-science-environment-configuring-git-and-anaconda?module_item_id=276031)
     - [Repo Link](https://github.com/learn-co-curriculum/dsc-data-science-env-config)
 
 ## Environment Setup Troubleshooting:  What if...
@@ -102,7 +99,7 @@ chsh -s /bin/bash
 
 - When dealing with code, the default text editing applications included in Windows and MacOS are not ideal (especially on Mac).
 
-#### You should install one or the other (or both!) of the following:
+#### You should install at least one of the following (but both is better!):
 - [ ] [SublimeText](https://www.sublimetext.com/)
     - Great lightweight text editor with some convenient features. 
     - [Official Anaconda Guide on setting up SublimeText](https://docs.anaconda.com/anaconda/user-guide/tasks/integration/sublime/)
@@ -126,7 +123,7 @@ chsh -s /bin/bash
 
 ### Jupyter Notebook Extensions Resources
 
-- [Documentation](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/)
+- [Documentation](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html)
     
 -  [Study Group Video](https://youtu.be/Fl7Xwr_kUkw)
 
@@ -134,8 +131,11 @@ chsh -s /bin/bash
 - [Official `nbextensions` Documentation](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html)
 
 
-- **The best way to install is via `conda`**
+#### Installation via Conda
+- **The best way to install is via `conda`** (however, windows users sometimes have issues with the conda installation not working properly).
     0. Open your terminal and make sure learn-env is activated.
+        - Mac users: `conda activate learn-env`
+        - Windows users: `source activate learn-env`
 
     1. Install the extensions via conda
     ```bash
@@ -146,8 +146,11 @@ chsh -s /bin/bash
     ```bash
     jupyter nbextension enable jupyter_nbextensions_configurator
       ```
+ >- Now, boot up jupyter notebook and look for a new tab called (`nbextensions`) on the jupyter file-explorer view. If its there, great! Move on to the "Turning on extensions" section below.
       
-- **If you have issues installing with conda, install with pip instead:**
+      
+#### Installing Using Pip    
+- **If you have issues installing with conda, install with pip instead ([Documentation](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html)):**
     1. Install extensions
     ```bash
     pip install jupyter_contrib_nbextensions
@@ -159,7 +162,9 @@ chsh -s /bin/bash
     3. Activate the extension configurator
     ```bash
     jupyter nbextension enable jupyter_nbextensions_configurator
-      ```
+    ```
+>- Now, boot up jupyter notebook and look for a new tab called (`nbextensions`) on the jupyter file-explorer view. If its there, great! Move on to the "Turning on extensions" section below.
+      
 
 ### Turning on extensions
 
@@ -198,7 +203,7 @@ chsh -s /bin/bash
     - Recommended options:
         - Check `Show the input & output of markdown cells side-by-side while editing them.`
 
-
+- `Ruler` (not Ruler in Editor)
 - `spellchecker`
 
 <!-- 
